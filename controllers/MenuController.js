@@ -57,4 +57,12 @@ module.exports = class MenuController {
         console.log("Thanks for using AddressBloc!");
         process.exit();
     }
+
+    remindMe(){
+        return("Learning is a life-long pursuit");
+    }
+
+    getContactCount(){
+        return this.contacts.length;
+    }
 }
