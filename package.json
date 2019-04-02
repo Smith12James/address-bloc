@@ -4,8 +4,19 @@
   "description": "An application to model an address book in Node",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export NODE_ENV=test && jasmine"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "lodash": "^4.17.11",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.43.1",
+    "sequelize-cli": "^4.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
 }
